@@ -35,6 +35,6 @@ test ("Post method", async ({ request }) => {
 test ("Delete method", async ({ request }) => {
 
   const response = await request.delete("https://reqres.in/api/users/2");
-  //console.log(await response.json());
+   //console.log(await response.json());
   expect(response.status()).toBe(204);
 });
